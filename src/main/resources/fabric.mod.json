@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "hardmobs",
+	"version": "${version}",
+	"name": "Hard Mobs",
+	"description": "Makes some mobs stronger by giving them armor, effects, more health, etc",
+	"authors": [
+		"Duckyshmuckys"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/hardmobs/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.duckyshmuckys.hardmobs.HardMobs"
+		],
+		"fabric-datagen": [
+			"net.duckyshmuckys.hardmobs.HardMobsDataGenerator"
+		],
+		"client": [
+			"net.duckyshmuckys.hardMobs.HardMobsClient"
+		]
+	},
+	"mixins": [
+		"hardmobs.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.2",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
