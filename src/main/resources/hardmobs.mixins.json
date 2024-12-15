@@ -3,7 +3,9 @@
 	"package": "net.duckyshmuckys.hardmobs.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"ExampleMixin",
+		"FireballEntityMixin",
+		"FireChargeEntityMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

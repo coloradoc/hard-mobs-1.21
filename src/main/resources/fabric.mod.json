@@ -20,9 +20,6 @@
 		],
 		"fabric-datagen": [
 			"net.duckyshmuckys.hardmobs.HardMobsDataGenerator"
-		],
-		"client": [
-			"net.duckyshmuckys.hardMobs.HardMobsClient"
 		]
 	},
 	"mixins": [
